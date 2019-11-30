@@ -1,0 +1,9 @@
+{
+  "db": {
+    "connection-string": "mongodb://127.0.0.1:27017/<YOUR-DATABASE-NAME>"
+  },
+
+  "jwt": {
+    "secret": "@@<YOUR-SECRET>@@"
+  }
+}

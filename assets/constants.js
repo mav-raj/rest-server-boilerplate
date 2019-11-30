@@ -1,0 +1,10 @@
+// constants
+const BCRYPT_SALT = 10;
+const JWT_SECRET = process.env.JWT_SECRET;
+const TASK_DEFAULT_INTERVAL = 10;
+
+// exports
+exports.BCRYPT_SALT = BCRYPT_SALT;
+exports.JWT_SECRET = JWT_SECRET;
+exports.TASK_DEFAULT_INTERVAL = TASK_DEFAULT_INTERVAL;
+
